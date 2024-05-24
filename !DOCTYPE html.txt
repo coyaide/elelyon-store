@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Elyon - Handmade Soaps, Creams, and Crafts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding: 20px;
+            background-color: white;
+        }
+        footer {
+            background-color: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .product h3 {
+            color: #4a90e2;
+        }
+        .product p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>El Elyon</h1>
+        <p>Handmade Soaps, Creams, and Crafts by Christabel Oyaide</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="content">
+            <h2>About Me</h2>
+            <p>Hello! I'm Christabel Oyaide, a passionate creator who loves arts and crafts. Welcome to El Elyon, my online store where I sell handmade soaps, creams, and various knick-knacks. Each product is crafted with love and care to bring a touch of joy and luxury to your everyday life.</p>
+        </section>
+        <section id="products" class="content">
+            <h2>Our Products</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="soap.jpg" alt="Handmade Soap">
+                    <h3>Handmade Soap</h3>
+                    <p>Our soaps are made with natural ingredients to nourish and cleanse your skin.</p>
+                </div>
+                <div class="product">
+                    <img src="cream.jpg" alt="Handmade Cream">
+                    <h3>Handmade Cream</h3>
+                    <p>Luxurious creams that hydrate and soothe, made from the finest ingredients.</p>
+                </div>
+                <div class="product">
+                    <img src="craft.jpg" alt="Crafts">
+                    <h3>Arts and Crafts</h3>
+                    <p>Unique and beautiful crafts that add charm to your home.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="content">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or would like to place an order, feel free to reach out!</p>
+            <p>Email: <a href="mailto:christabel@elelyon.com">christabel@elelyon.com</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 El Elyon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
